@@ -1,0 +1,245 @@
+/*général */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1,
+h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Barre Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #f5f7fa;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.button-login {
+  background: transparent;
+  border: none;
+  color: #4caf4f;
+}
+
+.button-signup {
+  background-color: #4caf4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* hearder */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #f5f7fa;
+  text-align: left;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #333;
+  font-weight: 700;
+}
+
+header span {
+  color: #4caf4f;
+}
+
+header p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px;
+}
+
+.button-register {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+.simple {
+  text-align: center;
+}
+/* Simple*/
+.Simple h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.Simple p {
+  text-align: center;
+  color: #666;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 10%;
+  background-color: #fff;
+  box-shadow: #666;
+  border: #777;
+  position: center;
+  left: 100px;
+}
+
+.cards-image {
+  position: relative;
+  left: 200px;
+  top: -85px;
+  text-align: center;
+  padding: 3rem;
+  width: 100px;
+  align-items: center;
+}
+
+.cards-déscription h3 {
+  text-align: center;
+  color: #333;
+}
+
+.cards-déscription p {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+
+/* Section 1 */
+.Section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #fff;
+  text-align: left;
+}
+
+.Section-1-déscription h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #333;
+  margin: 15px;
+  text-align: left;
+}
+
+.Section-1-déscription p {
+  font-size: 14px;
+  color: #777;
+  text-align: left;
+}
+
+.Section-1-déscription button {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+/* Section 2 */
+.Section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #fff;
+  text-align: left;
+}
+
+.Section-2-déscription h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #333;
+  margin: 15px;
+  text-align: left;
+}
+
+.Section-2-déscription p {
+  font-size: 14px;
+  color: #777;
+  text-align: left;
+}
+
+.Section-2-déscription button {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+.Section-2-img {
+  align-items: right;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #fff;
+  text-align: left;
+}
+
+.carte {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 10%;
+  background-color: #f5f7fa;
+  margin-bottom: 30px;
+}
+
+.carte-text {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  font-size: 40px;
+  text-align: center;
+}
+
+.carte-button {
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+/* Footer*/
+.footer-text {
+  text-align: center;
+  padding: 40px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+}
